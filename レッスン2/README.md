@@ -1,2 +1,2 @@
-# [研修課題2] Pull Requestを出してみよう
+#[研修課題2] Pull Requestを出してみよう
 # 
