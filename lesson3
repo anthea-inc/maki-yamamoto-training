@@ -2,4 +2,10 @@
 
 【知識課題】
 課題1
-→git configにuser.nameとuser.emailの設定を行いました。この設定がなぜ重要なのかを考えてみましょう。
+→git configにuser.nameとuser.emailの設定を行いました。この設定がなぜ重要なのかを考えてみましょう。  
+誰がコミットしたか記録するため
+
+
+課題2
+→personal access tokenを作成しました。personal access tokenが必要とされる理由について説明してください。  
+Personal Access Token は自分が作業する際に利用する、もしくは自分の代わりに作業させたい何者かに持たせるためのトークン
