@@ -20,24 +20,35 @@ Git を理解するには、用語を理解しておく必要があります。�
 - Staging Area（ステージングエリア）→コミットするファイルを置いておくためのエリアのこと。コミットするファイルを選択するためにある領域
 - Merge（マージ）→ブランチ同士を結合し、変更を反映させること
 - Conflict（衝突）→複数人が同じファイルの同じ場所の変更をした時に起こるエラー
-- Remote（リモート）→クラウド上にあるリポジトリのこと
+- Remote（リモート）→
 
 ### 課題３
 
 Gitの基本コマンドについて学びましょう。以下の各コマンドがどのような目的で使われるのかを説明してください。
 
-- git init
-- git add
-- git commit
-- git diff
-- git log
-- git config
-- git status
-- git push
-- git pull
-- git remote
-- git branch
-- git switch
+- git init  
+  →
+- git add  
+  →
+- git commit  
+  →
+- git diff  
+  →
+- git log  
+  →
+- git config  
+  →
+- git status  
+  →
+- git push  
+  →
+- git pull  
+  →
+- git remote  
+  →
+- git branch  
+  →
+- git switch  
 - git merge
 - git fetch
 - git reset
