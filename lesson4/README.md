@@ -27,37 +27,45 @@ Git を理解するには、用語を理解しておく必要があります。�
 Gitの基本コマンドについて学びましょう。以下の各コマンドがどのような目的で使われるのかを説明してください。
 
 - git init  
-  →
+  →ローカルリポジトリを作成する
 - git add  
   →
 - git commit  
-  →
+  →ローカルのステージからローカルリポジトリに変更内容を記録する
 - git diff  
   →
 - git log  
-  →
+  →変更履歴（コミット履歴）を確認する
 - git config  
-  →
+  →gitにユーザー情報を登録する
 - git status  
-  →
+  →現在の変更状況を確認する
 - git push  
   →
 - git pull  
-  →
+  →リモートリポジトリから情報を取得してマージする
 - git remote  
-  →
+  →設定しているリモートの情報を表示する
 - git branch  
-  →
-- git switch  
+  →ブランチを新規追加する。（ブランチの切り替えまでは行われない）
+- git switch
+  → 
 - git merge
+  →
 - git fetch
+  →
 - git reset
+  →
 - git rebase
+  →
 - git stash
+  →
 - git tag
+  →
 - git cherry-pick
+  →
 - git reflog
-- 
+  →
 ### 課題４
 
 - `.gitignore`ファイルの役割とその重要性について説明してください。
