@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>フォーム要素を学ぼう！</title>
+  </head>
+
+  <body>
+    <h1>会員登録</h1>
+    <form>
+      <!--ユーザー名の入力-->
+
+      <fieldset>
+        <legend>ユーザー名</legend>
+        <input type="text" placeholder="ユーザー名を入力" required />
+      </fieldset>
+      <br />
+
+      <!--required属性：必須フィールド-->
+      <!--placeholder属性：入力フィールドに初期表示されるヒントや説明テキスト-->
+      <!--for属性：id 属性で指定したフォーム要素と <label> を関連付ける-->
+
+      <!--メールアドレスの入力-->
+      <fieldset>
+        <legend>メールアドレス</legend>
+        <input type="email" placeholder="example@example.com" required />
+      </fieldset>
+      <br />
+
+      <!--パスワードの入力-->
+      <fieldset>
+        <legend>パスワード</legend>
+        <input type="password" placeholder="パスワードを入力" required />
+      </fieldset>
+      <br />
+      <!--性別の選択-->
+      <fieldset>
+        <legend>性別</legend>
+        <select required>
+          <optgroup>
+            <option value="">選択してください</option>
+            <option value="male">男性</option>
+            <option value="female">女性</option>
+            <option value="other">その他</option>
+          </optgroup>
+          <!--option属性：選択可能な項目-->
+          <!--value属性：①選択肢が選ばれた場合に送信される値を指定
+                      ②省略すると、<option> のテキストが値として送信される-->
+        </select>
+      </fieldset>
+      <br />
+
+      <!--生年月日の選択-->
+      <fieldset>
+        <legend>生年月日</legend>
+        <input type="date" required />
+      </fieldset>
+      <br />
+      <!--type="date"：日付専用の入力フィールド-->
+
+      <!--利用規約の同意-->
+      <fieldset>
+        <legend>利用規約</legend>
+        <input type="checkbox" required />
+        利用規約に同意します
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <label for="comments">自由記入欄</label>
+        <br />
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+      </fieldset>
+      <br />
+      <button type="submit">登録する</button>
+      <!--type="submit"：クリックすることでフォームが送信される-->
+      <br />
+    </form>
+  </body>
+</html>
