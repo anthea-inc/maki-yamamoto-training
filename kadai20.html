@@ -35,6 +35,26 @@
         <input type="password" placeholder="パスワードを入力" required />
       </fieldset>
       <br />
+ <!--言語の選択-->
+ <fieldset>
+ <label for="languages">使用する言語の選択:</label>
+  <input list="language-list" id="languages" name="language">
+  
+  <datalist id="language-list">
+    <option value="English"></option>
+    <option value="Japanese"></option>
+    <option value="Spanish"></option>
+    <option value="French"></option>
+    <option value="German"></option>
+    <option value="Chinese"></option>
+    <option value="Korean"></option>
+    <option value="Russian"></option>
+    <option value="Arabic"></option>
+    <option value="Portuguese"></option>
+  </datalist>
+</fieldset>
+
+<br>
       <!--性別の選択-->
       <fieldset>
         <legend>性別</legend>
@@ -45,6 +65,7 @@
             <option value="female">女性</option>
             <option value="other">その他</option>
           </optgroup>
+      
           <!--option属性：選択可能な項目-->
           <!--value属性：①選択肢が選ばれた場合に送信される値を指定
                       ②省略すると、<option> のテキストが値として送信される-->
@@ -77,6 +98,20 @@
       <button type="submit">登録する</button>
       <!--type="submit"：クリックすることでフォームが送信される-->
       <br />
+    </form>
+    <!--足し算-->
+    <h1>計算結果を表示</h1>
+ 
+    <form>
+        <label for="x">数値1:</label>
+        <input type="number" id="x" value="0">
+
+        <label for="y">数値2:</label>
+        <input type="number" id="y" value="0">
+
+        <button type="button" onclick="document.getElementById('result').value = parseInt(x.value) + parseInt(y.value)">計算する</button>
+
+        <p>結果: <output id="result">0</output></p>
     </form>
   </body>
 </html>
