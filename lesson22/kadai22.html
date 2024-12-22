@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>入力属性を学ぼう！</title>
+  </head>
+  <body>
+    <label>name属性：</label>
+    <input type="email" name="email" /><br />
+
+    <label>value属性：</label>
+    <input type="text" name="username" value="" /><br />
+    <!--valueを初期値にしたいため、未記述-->
+
+    <label>readonly属性：</label>
+    <input
+      type="textarea"
+      name="comments"
+      value="このコメントは読み取り専用のため、編集できません"
+      readonly
+    /><br />
+
+    <label>disabled属性：</label>
+    <input
+      type="text"
+      name="username"
+      value="disabled属性を使用しているため編集不可"
+      disabled
+    /><br />
+
+    <label>size属性：</label>
+    <input
+      type="text"
+      name="username"
+      value="size属性で値を50に設定しています"
+      size="50"
+    /><br />
+
+    <label>maxlength属性：</label>
+    <input type="password" name="password" maxlength="8" /><br />
+
+    <label>min属性：</label>
+    <input type="number" name="age" min="0" /><br />
+
+    <label>max属性：</label>
+    <input type="number" name="age" max="20" /><br />
+
+    <label>multiple属性：</label>
+    <label for="files">ファイルを選択:</label>
+    <input type="file" name="files" multiple /><br />
+
+    <label>pattern属性：</label>
+    <input
+      type="text"
+      name="number"
+      pattern="\d+"
+      title="数値を入力してください。"
+    /><br />
+
+    <label>placeholder属性：</label>
+    <input
+      type="text"
+      name="userid"
+      size="60"
+      placeholder="例:大文字と小文字が含まれたユーザーIDを記入してください"
+    /><br />
+
+    <label>required属性：</label>
+    <input
+      type="text"
+      name="username"
+      placeholder="必須項目です"
+      required
+    /><br />
+
+    <label>step属性：</label>
+    <input type="range" name="volume" min="0" max="100" step="5" /><br />
+    <!--スライダーは 0〜100 の間で動作し、値は5単位（例: 0, 5, 10,...）で調整される-->
+
+    <label>autofocus属性：</label>
+    <input type="text" name="username" autofocus /><br />
+
+    <label>width属性：</label>
+    <img src="../lesson22/image/example.png" alt="example.png" width="300" />
+
+    <label>height属性：</label>
+    <img
+      src="../lesson22/image/example.png"
+      alt="example.png"
+      height="300"
+    /><br /><br /><br />
+
+    <label>list属性：</label>
+    <input type="text" name="browser" list="browsers" />
+
+    <datalist id="browsers">
+      <option value="Google Chrome"></option>
+      <option value="Mozilla Firefox"></option>
+      <option value="Safari"></option>
+      <option value="Microsoft Edge"></option>
+      <option value="Opera"></option></datalist
+    ><br />
+
+    <label>autocomplete属性：</label>
+    <input type="email" name="email" autocomplete="on" />
+  </body>
+</html>
