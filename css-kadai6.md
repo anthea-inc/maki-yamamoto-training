@@ -132,7 +132,11 @@ dvw/dvh
 lvw/lvh
 特徴：画面幅や状態が閾値を下回ったときに、スタイルを適用して警告や通知を表示してくれる
 使用場面：小さい画面でのデザイン崩れを防ぐ、ユーザーへの視覚的警告
-メモ：lvw（Large View Width）、lvh（Large View Height）
+メモ：
+  lvw（Large View Width）：最大幅基準の単位（仮想的な概念）
+  lvh（Large View Height）：最大高さ基準の単位（仮想的な概念）
+  現在のCSS仕様に正式に存在する単位ではない。
+  `vw/vh`や`@media`クエリで代替可能。
 
 svw/svh
 特徴：画面サイズに応じて要素の幅を柔軟に変更可能
