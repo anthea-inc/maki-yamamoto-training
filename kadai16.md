@@ -2,8 +2,13 @@
 
         - `<style>`
 
-  役割：HTML 文書内に直接 CSS を書く
-  　　 使用例： <p style="color: aqua">この行を「aqua」に色変更</p>
+  役割：HTMLページ内でCSSスタイルを定義する
+  　　 使用例：<style>タグを用いた内部css方式
+   <style>
+        h1 {
+            color: blue;
+        }
+    </style>
 
         - `<link>`
         役割：外部ファイルを読み込む（CSSやfaviconなど）
@@ -24,6 +29,12 @@
   <script>
     console.log("Hello, world!");
   </script>
+
+外部スクリプトの場合
+
+<body>
+    <script src="script.js"></script>
+</body>
 
 メモ：console.log メソッドを使って、ブラウザの開発者ツール（コンソール）にメッセージを表示する
 
