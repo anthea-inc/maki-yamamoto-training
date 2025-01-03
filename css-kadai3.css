@@ -1,0 +1,53 @@
+/*　border-styleのプロパティ値　*/
+
+.box01 {
+  border-style: dotted;
+  margin: 30px;
+}
+
+.box02 {
+  border-style: dashed;
+  margin: 30px;
+}
+
+.box03 {
+  border-style: solid;
+  margin: 30px;
+}
+
+.box04 {
+  border-style: double;
+  margin: 30px;
+}
+.box05 {
+  border-style: none;
+  margin: 30px;
+}
+.box06 {
+  border-style: hidden;
+  margin: 30px;
+}
+
+/*　その他プロパティ　*/
+.box07 {
+  border-style: dotted;
+  border-width: 4px 6px; /*（上下4px、左右6px）*/
+  margin: 30px;
+}
+
+.box08 {
+  border-style: dotted;
+  border-color: firebrick;
+  margin: 30px;
+}
+
+.box09 {
+  border-style: dotted;
+  border: 2px solid palevioletred; /*線の太さ、線のスタイル、線の色*/
+  margin: 30px;
+}
+.box10 {
+  border-style: dotted;
+  border-radius: 20px;
+  margin: 30px;
+}
