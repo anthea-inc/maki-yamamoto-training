@@ -135,7 +135,6 @@ lvw/lvh
 メモ：
   lvw（Large View Width）：最大幅基準の単位（仮想的な概念）
   lvh（Large View Height）：最大高さ基準の単位（仮想的な概念）
-  現在のCSS仕様に正式に存在する単位ではない。
   `vw/vh`や`@media`クエリで代替可能。
 
 svw/svh
