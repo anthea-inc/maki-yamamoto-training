@@ -6,7 +6,7 @@
 
 .main-box {
   width: 100%; /* 親要素の100% */
-  max-width: 20rem /* 高さは20remを基準 */ max-height 50vh; /* 最大高さはビューポート高さの50% */
+  height: 20rem /* 高さは20remを基準 */ max-height 50vh; /* 最大高さはビューポート高さの50% */
   background-color: #225a7d;
 }
 
