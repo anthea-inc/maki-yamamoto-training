@@ -1,0 +1,47 @@
+/* 「color」「text-align」 */
+.box01 {
+  text-align: center;
+  color: pink;
+}
+
+/* text-align-last */
+.box02 {
+  text-align-last: center;
+}
+
+/* direction */
+.box03 {
+  direction: rtl; /* Right-to-Left */
+  display: block; /* 必要なら指定 */
+}
+
+/* unicode-bidi */
+.box04 {
+  unicode-bidi: embed;
+  direction: rtl;
+}
+
+/* vertical-align */
+.box05 {
+  vertical-align: text-bottom;
+}
+
+/* text-decoration-line */
+.box06 {
+  text-decoration-line: line-through;
+}
+
+/* text-decoration-color */
+.box07 {
+  text-decoration-color: blue;
+}
+
+/* text-decoration-style*/
+.box08 {
+  text-decoration-style: dotted;
+}
+
+/* text-decoration-thickness */
+.box09 {
+  text-decoration-thickness: 0.5em;
+}
