@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>テーブルを学ぼう！</title>
+  </head>
+  <body>
+    <h1>初めてのテーブル作成</h1>
+    <table>
+      <caption>
+        Anthea学校　生徒一覧
+      </caption>
+      <colgroup>
+        <col span="3" style="background-color: #e6e6fa" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>名前</th>
+          <th>学籍番号</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">縦に３行連結</td>
+          <td>伊藤 慎二</td>
+          <td>20201111</td>
+        </tr>
+        <tr>
+          <td>橋本 優香</td>
+          <td>20202222</td>
+        </tr>
+        <tr>
+          <td>田中 涼太</td>
+          <td>20203333</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">学生の総人数: 3名</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
