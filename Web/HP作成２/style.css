@@ -1,0 +1,56 @@
+/**/
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  color: aliceblue;
+}
+
+h2 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 80px;
+  color: aliceblue;
+}
+
+h3 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 80px;
+  color: aliceblue;
+}
+
+p {
+  font-size: 30px;
+}
+
+.album {
+  padding-left: 500px;
+  color: aliceblue;
+}
+img {
+  background-size: cover;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+body {
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+  color: aliceblue;
+  font-size: 25px;
+}

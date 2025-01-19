@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Users/maki.y/projects/maki-yamamoto-training/HP作成/style.css"
+    />
+    <title>早紀さんと行ってみたいところ紹介！</title>
+  </head>
+  <body>
+    <h1>椿サロン　東京渋谷店</h1>
+
+    <!-- 一行目 -->
+    <div style="display: flex; gap: 10px">
+      <div>
+        <a href="http://www.tsubakisalon.jp/shibuya/">
+          <img
+            src="/Users/maki.y/projects/maki-yamamoto-training/HP作成/椿サロン東京渋谷/お店の画像.jpg"
+            alt="パンケーキ屋さん"
+            width="500"
+            height="500"
+          />
+        </a>
+      </div>
+      <div>
+        <p>JR山手線「渋谷駅」より徒歩約7分</p>
+        <p>
+          北海道の小麦とそのでんぷん、卵、てんさい糖、海の荒塩のみを使用し、ゆっくりと時間を
+          かけて焼き上げた完全無添加のほっとけーきは、創業以来多くのお客様にご愛顧いただきました。
+          お皿を持ち上げるとぷるぷると揺れるほっとけーきは、繊細な食感をお楽しみいただける逸品です。
+        </p>
+      </div>
+    </div>
+
+    <!-- 二行目 -->
+    <div style="display: flex; gap: 10px">
+      <div style="width: 700px">
+        <h1>北海道ほっとけーきバナナ</h1>
+        <p>北海道の小麦と卵でじっくり焼き上げた無添加のホットケーキです！</p>
+        <p>あああああ</p>
+      </div>
+      <div>
+        <a href="http://www.tsubakisalon.jp/shibuya/">
+          <img
+            src="../HP作成/椿サロン東京渋谷/パンケーキ１.jpg"
+            alt="パンケーキ１"
+            width="500"
+            height="500"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- 三行目 -->
+    <div style="display: flex; gap: 10px">
+      <div>
+        <a href="http://www.tsubakisalon.jp/shibuya/">
+          <img
+            src="../HP作成/椿サロン東京渋谷/パンケーキ２.jpg"
+            alt="パンケーキ2"
+            width="500"
+            height="500"
+          />
+        </a>
+      </div>
+      <div>
+        <p>あああああ</p>
+        <p>あああああ</p>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
