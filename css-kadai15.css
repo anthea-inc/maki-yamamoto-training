@@ -14,7 +14,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  z-index: 1;
+  z-index: 3;
   width: 70%;
   height: 60px;
   background: lightgray;
@@ -24,7 +24,7 @@
   position: absolute;
   top: -15px;
   left: 270px;
-  z-index: 1;
+  z-index: 2;
   width: 35%;
   height: 100px;
   background: lightgreen;
