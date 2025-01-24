@@ -222,6 +222,8 @@ background-color: lightgray;
   text-decoration: underline;
   }
 
+---
+
 ## 課題 3
 
 - 上記で挙げられていない擬似クラスを 3 つ調査し、以下の項目を含めて説明してください。
