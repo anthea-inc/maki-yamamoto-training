@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css-kadai18-1.css" />
+    <title>擬似クラスの理解１</title>
+  </head>
+  <body>
+    <h1>「:link」「a:link」：リンクのスタイル</h1>
+
+    <p><a href="https://www.example.com" target="_blank">Example.com</a></p>
+    <p><a href="https://www.google.com" target="_blank">Google</a></p>
+    <p><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
+    <br /><br />
+    <h1>「:hover」：カーソルがリンクに重なる時のスタイル</h1>
+
+    <a href="#"
+      >ここにカーソルを合わせると文字色が赤くになり、下線が引かれます</a
+    >
+    <br /><br />
+    <h1>「:active」：ボタンのアクティブ状態</h1>
+    <button>クリックしてね！</button>
+    <br /><br />
+    <h1>「:focus」：フォーカスを受けた入力フィールドのボーダー色変更</h1>
+    <form>
+      <label for="name">名前:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="お名前を入力してください"
+      />
+      <br /><br />
+      <input type="submit" value="送信" />
+    </form>
+    <br /><br />
+    <h1>「:disabled」：無効化されたボタン</h1>
+    <button disabled>無効なボタン</button>
+    <button>有効なボタン</button>
+    <br /><br />
+    <h1>「:enabled」：有効な状態の要素を示す</h1>
+    <form>
+      <label for="enabledInput">Enabled Input:</label>
+      <input
+        type="text"
+        id="enabledInput"
+        placeholder="ここに入力してください"
+      />
+
+      <br /><br />
+
+      <label for="disabledInput">Disabled Input:</label>
+      <input
+        type="text"
+        id="disabledInput"
+        placeholder="ここには入力できません"
+        disabled
+      />
+    </form>
+    <br /><br />
+    <h1>「:checked」：チェックされている状態の要素を示す</h1>
+    <div>
+      <input type="checkbox" id="タスク1" />
+      <label for="タスク1">タスク1:お風呂の掃除</label>
+    </div>
+    <div>
+      <input type="checkbox" id="タスク2" />
+      <label for="タスク2">タスク2:お買い物</label>
+    </div>
+    <div>
+      <input type="checkbox" id="タスク3" />
+      <label for="タスク3">タスク3:ポチの散歩</label>
+    </div>
+    <br /><br />
+    <h1>「:first-child」：親要素の最初の子要素に文字色（赤）を適用</h1>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <br /><br />
+    <!--↓「:first-child」とスタイルの適用が混ざらないように頑張った↓-->
+    <h1>「:last-child」：親要素の最後の子要素に文字色（赤）を適用する</h1>
+    <div>
+      <p>Item 1</p>
+      <p>Item 2</p>
+      <p>Item 3</p>
+    </div>
+  </body>
+</html>
