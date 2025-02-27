@@ -1,0 +1,35 @@
+.container {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #333;
+  margin: 20px;
+  padding: 10px;
+  overflow: hidden; /* overflowを指定 */
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.box01 {
+  overflow: auto;
+}
+
+.box02 {
+  overflow: scroll;
+}
+
+.box03 {
+  overflow: hidden;
+}
+
+.box04 {
+  overflow: visible;
+}
+
+.box05 {
+  overflow-x: auto; /* 水平方向にスクロール可能 */
+  overflow-y: auto; /* 垂直方向にスクロール可能 */
+}
