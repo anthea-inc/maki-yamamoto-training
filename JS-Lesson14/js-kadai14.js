@@ -29,8 +29,8 @@ function addIndexToString(arr) {
   return arr.map((str, index) => str + index);
 }
 
-const inputArray = ["apple", "banana", "cherry", "date"];
-const result = addIndexToString(inputArray);
+const vehicles = ["car", "bike"];
+const result = addIndexToString(vehicles);
 console.log(result);
 console.log("");
 
