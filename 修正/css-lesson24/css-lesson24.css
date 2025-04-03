@@ -1,0 +1,12 @@
+:root {
+  --text-color: blue;
+}
+
+.box {
+  margin: 20px;
+  color: var(--text-color);
+}
+
+.red {
+  --text-color: red;
+}

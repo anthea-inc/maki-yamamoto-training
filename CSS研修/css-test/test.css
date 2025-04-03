@@ -1,0 +1,3 @@
+li:not(.highlight) {
+  text-decoration: underline;
+}

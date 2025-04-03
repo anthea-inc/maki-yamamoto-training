@@ -1,0 +1,51 @@
+.box01 {
+  position: sticky;
+  top: 20px; /* 固定される開始位置 */
+  background-color: #459b07;
+  padding: 10px;
+  border: 2px solid #333;
+  font-size: 18px;
+}
+
+.box02 {
+  position: fixed;
+  top: 80px; /* 画面上部から80px */
+  right: 10px; /* 画面右端から10px */
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #b5d9d9;
+  border: 1px solid #ccc;
+}
+.box03 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #2ecc71;
+  bottom: 70px;
+  right: 80px;
+}
+
+.box04 {
+  position: relative; /* 相対位置 */
+}
+
+.box05 {
+  position: static;
+}
+
+.songs {
+  padding: 100px;
+}
+
+span {
+  padding: 50px;
+}
+
+p {
+  font-size: 20px;
+  color: red;
+}

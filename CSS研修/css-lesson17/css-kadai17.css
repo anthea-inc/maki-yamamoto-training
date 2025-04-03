@@ -1,0 +1,25 @@
+section div p {
+  font-size: 20px;
+  color: cyan;
+}
+
+section > p {
+  font-size: 20px;
+  color: red;
+}
+
+h1 + p {
+  font-size: 20px;
+  color: blue;
+}
+
+h1 ~ p {
+  font-size: 20px;
+  color: green;
+}
+
+h2,
+h3,
+h4 {
+  color: orange;
+}

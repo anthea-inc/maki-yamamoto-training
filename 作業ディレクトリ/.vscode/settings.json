@@ -1,0 +1,10 @@
+{
+  // インデント幅を 2 スペースに設定
+  "editor.tabSize": 2,
+
+  // ファイルを保存したタイミングで自動的にコードを整形 する
+  "editor.formatOnSave": true,
+
+  // VS Code のデフォルトのフォーマッターとして Prettier - Code formatter を使用する
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
