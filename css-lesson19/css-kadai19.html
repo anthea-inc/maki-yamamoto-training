@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css-kadai19.css" />
+    <title>擬似要素の理解</title>
+  </head>
+  <body>
+    <h2>「::first-line」：段落やブロック要素の最初の 1 行をスタイリング</h2>
+    <p>
+      最初の１行なので適用される<br />
+      ２行目なので適用されない<br />
+      3行目なので適用されない
+    </p>
+    <br />
+    <h2>「::first-letter」：段落やブロック要素の最初の文字をスタイリング</h2>
+    <div>最初の文字だけスタイルを適用</div>
+    <br />
+    <h2>「::before」：要素の前にコンテンツを挿入してスタイリング</h2>
+    <h3>よくわからないマークを先頭につけた</h3>
+    <br />
+    <h2>「::after」：指定した要素の直後に追加の内容を挿入</h2>
+    <span class="example">Hello</span>
+    <br />
+    <h2>
+      「::marker」：リストアイテムのマーカー部分（例：箇条書きの点や番号）をカスタマイズ
+    </h2>
+    <ul class="custom-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+    <h2>
+      「::selection」：ユーザーが選択（ハイライト）した部分のスタイルを変更
+    </h2>
+    <h4 class="highlightable">ここで黄色のマーカーがひけるよ</h4>
+  </body>
+</html>

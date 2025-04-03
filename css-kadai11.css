@@ -1,0 +1,15 @@
+.box01 {
+  list-style-type: circle; /* 白抜きの丸 */
+}
+
+.box02 {
+  list-style-image: url(wakaba_mark.gif); /* 若葉マークのリストマーカーで表示 */
+}
+
+.box03 {
+  list-style-position: inside; /* リスト項目の内側 */
+}
+
+.box04 {
+  list-style: circle inside; /* プロパティを一括指定 */
+}

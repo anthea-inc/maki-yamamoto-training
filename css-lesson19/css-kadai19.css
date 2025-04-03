@@ -1,0 +1,29 @@
+p::first-line {
+  font-weight: bold;
+  color: blue;
+}
+
+div::first-letter {
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+}
+
+h3::before {
+  content: "🔹 ";
+}
+
+.example::after {
+  content: " World!";
+  color: orange;
+}
+
+.custom-list li::marker {
+  color: red;
+  content: "→ ";
+}
+
+h4::selection {
+  background: yellow;
+  color: black;
+}

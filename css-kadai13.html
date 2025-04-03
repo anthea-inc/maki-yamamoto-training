@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css-kadai13.css" />
+    <title>表示と可視性の理解</title>
+  </head>
+  <body>
+    <p>【deisplay】</p>
+    <!--box01-->
+    <div class="box01">
+      display:block;　ブロック要素として扱う。幅は親要素いっぱいに広がり、縦に並ぶ
+    </div>
+    <div class="box01">
+      display:block;　ブロック要素として扱う。幅は親要素いっぱいに広がり、縦に並ぶ
+    </div>
+
+    <!--box02-->
+    <div class="box02">
+      display: inline;　その内容の大きさに応じて自動的にサイズが決まる
+    </div>
+    <br />
+
+    <!--box03-->
+    <span>
+      display:
+      inline-block;　インラインのように横並びになるが、ブロック要素のように幅や高さを指定できる
+    </span>
+    <div class="box03">１</div>
+    <div class="box03">２</div>
+    <div class="box03">３</div>
+    <br />
+
+    <!--box04-->
+    <div class="box04-1">
+      display: none;はここで指定しているけど非表示だから見えない
+    </div>
+    <div class="box04">
+      display: none;　要素が完全に非表示になり、DOM上にも描画されない
+    </div>
+
+    <!--box05-->
+    <div class="box05">
+      display:
+      contents;　要素自体を視覚的なボックスとして扱わず、中身（子要素）のみを表示する
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <!--box06-->
+    <div class="box06">
+      display:
+      initial;　初期値（デフォルト）に戻る。初期値はタグに依存する（例：div は
+      block がデフォルト）。
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <!--box07-->
+    <div class="box07">
+      display: inherit;　親要素から display の値を継承する
+    </div>
+    <div class="child">inherit を使った子要素</div>
+    <div class="child2">独自のスタイルを持つ子要素</div>
+
+    <p>【visibility】</p>
+    <!--box08-->
+    <div class="box08">
+      visibility: visible;　要素が表示され、通常どおり視覚的に確認できる
+    </div>
+
+    <!--box09-->
+    <span
+      >visibility:hidden;ここで指定しているけど非表示だから見えない。レイアウト上のスペースは保持されている</span
+    >
+    <div class="box09">
+      visibility:hidden;　要素は非表示になるが、要素のスペースは残り、レイアウトに影響を与える
+    </div>
+  </body>
+</html>

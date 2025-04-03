@@ -1,0 +1,40 @@
+.box01 {
+  outline-style: double; /* 二重線 */
+  outline-color: rgb(19, 150, 100);
+  padding: 30px;
+  margin: 30px;
+}
+
+.box02 {
+  outline-width: thick; /* 太い線 */
+  outline-style: double;
+  outline-color: pink;
+  padding: 30px;
+  margin: 30px;
+}
+
+.box03 {
+  outline-color: cyan;
+  outline-style: double;
+  padding: 30px;
+  margin: 30px;
+}
+
+.box04 {
+  outline: 10px double blue;
+  padding: 30px;
+  margin: 30px;
+}
+
+.box05 {
+  outline: 4px double red;
+  outline-offset: 0.5em; /* アウトラインを要素の境界から0.5em離す */
+  padding: 30px;
+  margin: 30px;
+}
+
+/*
+.box05
+outline: 4px double red;
+2pxに設定していたら、doubleが適用されていないような表示になってしまった！
+*/

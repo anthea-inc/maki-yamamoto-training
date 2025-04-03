@@ -1,0 +1,22 @@
+.box01 {
+  width: 50%;
+  border: 2px solid black;
+  border-collapse: collapse; /* セルの境界線を結合 */
+}
+
+.box02 {
+  width: 50%;
+  border: 2px solid black;
+  border-collapse: separate; /* セルの境界線を分離 */
+}
+th,
+td {
+  border: 1px solid black; /* セルのボーダー */
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}

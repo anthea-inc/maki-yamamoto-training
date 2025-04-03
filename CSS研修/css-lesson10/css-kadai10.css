@@ -1,0 +1,38 @@
+.box01 {
+  font-family: Comic Sans MS, sans-serif; /* 「Comic Sans MS」が適用できない場合、「sans-serif」を適用 */
+  margin-top: 30px;
+}
+
+.box02 {
+  font-weight: bold; /* テキストを太字で表示 */
+  margin-top: 30px;
+}
+
+.box03 {
+  font-variant: small-caps; /* 小文字のテキストが大文字に変換される */
+  margin-top: 30px;
+}
+
+.box04 {
+  font-size: 24px; /* フォントサイズを24px */
+  margin-top: 30px;
+}
+
+.box05 {
+  font-style: italic; /* フォントスタイルを斜体に設定 */
+  margin-top: 30px;
+}
+/* generic-family */
+/* 「Nonexistent-font」を適用できない場合、「fantasy」を適用*/
+.box06 {
+  font-family: "Nonexistent-font", fantasy;
+  margin-top: 30px;
+}
+
+.jersey-15-regular {
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+}
+
