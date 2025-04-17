@@ -20,18 +20,54 @@
 grid-template-columns
 役割：カラム（列）の幅や数を定義する
 
-【CSS】
+💡せいはさんレビューメモ
+repeat()やminmax()を使えば便利！
+
+grid-template-columns: repeat(3, 1fr); (3つのカラムで利用可能なスペースを均等に分割)
+grid-template-columns: 100px repeat(2, 1fr) 200px; (1列目100px、4列目200px、間の2列が残りのスペースを均等分割)
+
+【index.css】
 .grid-container {
 display: grid;
 grid-template-columns: 100px 200px auto;
 }
 ↑ １列目：100px、２列目：200px、３列目：残りのスペースを自動調整
 
+メモ：
+fr単位とは？
+CSS Grid Layoutで使われる柔軟な比率ベースの単位のこと
+fr は fraction（分数）の略 で、グリッドコンテナ内の残りのスペースを比率で分配する
+
+pxとの違い
+px: 絶対的な長さ（例：100px）
+fr: 相対的な比率（例：1fr）
+
+つまり、px を使うとサイズが固定されるが、fr を使うとコンテナのサイズに応じて自動調整される
+
 grid-template-rows
 役割：行（row）の高さを定義する
 
 grid-template-areas
 役割：エリア（名前付きの領域）を指定する
+
+💡せいはさんレビューメモ
+具体的なCSS例があるとわかりやすいので、記述できているとなお良いですね！
+
+【index.css】
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "main sidebar"
+    "footer footer";
+}
+
+.header-item { grid-area: header; }
+.main-item { grid-area: main; }
+.sidebar-item { grid-area: sidebar; }
+.footer-item { grid-area: footer; }
 
 justify-content
 役割：コンテナ内で、グリッドアイテム（列全体）の 水平方向 の配置方法を指定する
