@@ -45,7 +45,7 @@ DBのテーブル設計がアプリケーションのパフォーマンスに直
 また、バグを発見した際は、再現手順や環境情報を明確に記載したIssueを作成することで、チーム全体の対応速度を向上させました。新機能の仕様を議論する際には、大手サービスのUI/UXを参考にユーザー目線の提案を行い、直感的に使いやすい設計の実現に貢献しました。
 
 **プロジェクトの採用技術**  
-React・TypeScript/JavaScript・PostgreSQL・Docker
+React・TypeScript/JavaScript・drizzle・PostgreSQL・Docker
 
 ---
 
